@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Lừa Đảo</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- gg font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- icon -->
+    <link rel="stylesheet" href="themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/product.css">
+</head>
+
+<body>
+    <div class="container-fluid bg-light">
+        <div class="h-nav2 shadow-sm p-3  bg-body rounded">
+            <ul id="nav_item1">
+                <li><a href="#">Giày</a></li>
+                <li><a href="#">Giép</a></li>
+            </ul>
+            <div class="h-box-right">
+                <div class="h-search">
+                    <button class="h-btn-search"><i class="fa-brands fa-sistrix"></i>
+                        <input id="inputseah" class="h-ip-search" type="search" placeholder="Tìm Kiếm..."></button>
+                </div>
+                <a class="h-btn-user">
+                    <i class="ti-user"></i>
+                </a>
+                <a href="" class="h-btn-user"><i class="ti-shopping-cart"></i></a>
+                <a href="" class="h-btn-user"><i class="fa-regular fa-heart text-dark"></i></a>
+            </div>
+
+            <div class="seah__over shadow-sm ">
+                <div class="row p-4">
+                    <div class="col-md-2">
+                        <div class="d-flex flex-column gap-1">
+                            <span class="text-secondary h5">Có Thể Bạn Thích</span>
+                            <li><a class="text-decoration-inline text-dark" href="">Air Jordan 1 Zoom CMFT 2</a></li>
+                            <li><a class="text-decoration-inline text-dark" href="">Nike Air Force 1</a></li>
+                            <li><a class="text-decoration-inline text-dark" href="">Nike Air VaporMax 2023 Flyknit</a>
+                            </li>
+                            <li><a class="text-decoration-inline text-dark" href="">Jumpman Hai Trey</a></li>
+
+                        </div>
+                    </div>
+                    <div class="col-md-10 mt-5">
+                        <div id="list" class="row">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row p-4">
+            <div class="p-mid">
+                <div class="p-mid-1">
+                    <h3><strong>Shoe / Nike</strong></h3>
+                    <span> <i class="fa-solid fa-gear"></i> Setting</span>
+                </div>
+
+                <div class="p-mid-2">
+                    <a href="#" id="full-btn" class="text-decoration-none text-dark">
+                        <span>Full <i class="fa-solid fa-sliders"></i> </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="nav-list" class="row p-4">
+            <div id="nav-left" class="col-md-3 py-3">
+                <div class="p-gender">
+                    <div class="p-gender-item">
+                        <span class="h4"><strong>Gender</strong></span>
+                        <ul class="px-2 py-3">
+                            <li><input type="checkbox"><label for="">Nam</label></li>
+                            <li><input type="checkbox"><label for="">Nữ</label></li>
+                            <li><input type="checkbox"><label for="">Cả hai</label></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="p-gender">
+                    <div class="p-gender-item">
+                        <span class="h4"><strong>Price</strong></span>
+                        <ul class="px-2 py-3">
+                            <li><input type="checkbox"><label for="">0đ - 300,000đ</label></li>
+                            <li><input type="checkbox"><label for="">300,000đ - 500,000đ</label></li>
+                            <li><input type="checkbox"><label for="">500,000đ - 700,000đ</label></li>
+                            <li><input type="checkbox"><label for="">700,000đ - 900,000đ</label></li>
+                            <li><input type="checkbox"><label for="">900,000đ - ...</label></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="p-gender">
+                    <div class="p-gender-item">
+                        <span class="h4"><strong>Color</strong></span>
+                        <ul class="px-2 py-3">
+                            <li><input type="checkbox"><label for=""><i class="fa-solid fa-circle text-danger"></i>
+                                    Red</label></li>
+                            <li><input type="checkbox"><label for=""><i class="fa-solid fa-circle text-primary"></i>
+                                    Blue</label></li>
+                            <li><input type="checkbox"><label for=""><i class="fa-solid fa-circle text-warning"></i>
+                                    Yellow</label></li>
+                            <li><input type="checkbox"><label for=""><i class="fa-solid fa-circle text-dark"></i>
+                                    Black</label></li>
+                            <li><input type="checkbox"><label for=""><i class="fa-solid fa-circle text-light"></i>
+                                    White</label></li>
+                            <li><input type="checkbox"><label for="">Other</label></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="product-list" class="col-md-9 overflow-auto">
+                <div class="p-product">
+                    <div class="product-item text-decoration-none">
+                        <img src="imgs/product/Air Jordan 1 Zoom CMFT 2 (1).webp" alt="">
+                        <div class="infor d-grid py-3">
+                            <span><strong>Air Jordan 1 Zoom CMFT 2</strong></span>
+                            <span> Woman/Men's Shose</span>
+                            <span><strong> 3,620,000 đ</strong></span>
+                        </div>
+
+                        <div class="product-btn">
+                            <a href="" class="btn btn-outline-dark text-center"><i
+                                    class="fa-solid fa-cart-shopping"></i> ADD CART</a>
+                            <a href="" class="btn btn-outline-light"><i class="fa-solid fa-circle-info"></i> DETAIL</a>
+                        </div>
+
+                    </div>
+                    <div class="product-item text-decoration-none">
+                        <img src="imgs/product/Air Jordan 1 Zoom CMFT 2 (2).webp" alt="">
+                        <div class="infor d-grid py-3">
+                            <span><strong>Air Jordan 1 Zoom CMFT 2</strong></span>
+                            <span> Woman/Men's Shose</span>
+                            <span><strong> 3,620,000 đ</strong></span>
+                        </div>
+
+                        <div class="product-btn">
+                            <a href="" class="btn btn-outline-dark text-center"><i
+                                    class="fa-solid fa-cart-shopping"></i> ADD CART</a>
+                            <a href="" class="btn btn-outline-light"><i class="fa-solid fa-circle-info"></i> DETAIL</a>
+                        </div>
+
+                    </div>
+                    <div class="product-item text-decoration-none">
+                        <img src="imgs/product/Air Jordan 1 Zoom CMFT 2 (3).webp" alt="">
+                        <div class="infor d-grid py-3">
+                            <span><strong>Air Jordan 1 Zoom CMFT 2</strong></span>
+                            <span> Woman/Men's Shose</span>
+                            <span><strong> 3,620,000 đ</strong></span>
+                        </div>
+
+                        <div class="product-btn">
+                            <a href="" class="btn btn-outline-dark text-center"><i
+                                    class="fa-solid fa-cart-shopping"></i> ADD CART</a>
+                            <a href="" class="btn btn-outline-light"><i class="fa-solid fa-circle-info"></i> DETAIL</a>
+                        </div>
+
+                    </div>
+                    <div class="product-item text-decoration-none">
+                        <img src="imgs/product/Air Jordan 1 Zoom CMFT 2 (3).webp" alt="">
+                        <div class="infor d-grid py-3">
+                            <span><strong>Air Jordan 1 Zoom CMFT 2</strong></span>
+                            <span> Woman/Men's Shose</span>
+                            <span><strong> 3,620,000 đ</strong></span>
+                        </div>
+
+                        <div class="product-btn">
+                            <a href="" class="btn btn-outline-dark text-center"><i
+                                    class="fa-solid fa-cart-shopping"></i> ADD CART</a>
+                            <a href="" class="btn btn-outline-light"><i class="fa-solid fa-circle-info"></i> DETAIL</a>
+                        </div>
+
+                    </div>
+                    <div class="product-item text-decoration-none">
+                        <img src="imgs/product/Air Jordan 1 Zoom CMFT 2 (1).webp" alt="">
+                        <div class="infor d-grid py-3">
+                            <span><strong>Air Jordan 1 Zoom CMFT 2</strong></span>
+                            <span> Woman/Men's Shose</span>
+                            <span><strong> 3,620,000 đ</strong></span>
+                        </div>
+
+                        <div class="product-btn">
+                            <a href="" class="btn btn-outline-dark text-center"><i
+                                    class="fa-solid fa-cart-shopping"></i> ADD CART</a>
+                            <a href="" class="btn btn-outline-light"><i class="fa-solid fa-circle-info"></i> DETAIL</a>
+                        </div>
+
+                    </div>
+                    <div class="product-item text-decoration-none">
+                        <img src="imgs/product/Air Jordan 1 Zoom CMFT 2 (1).webp" alt="">
+                        <div class="infor d-grid py-3">
+                            <span><strong>Air Jordan 1 Zoom CMFT 2</strong></span>
+                            <span> Woman/Men's Shose</span>
+                            <span><strong> 3,620,000 đ</strong></span>
+                        </div>
+
+                        <div class="product-btn">
+                            <a href="" class="btn btn-outline-dark text-center"><i
+                                    class="fa-solid fa-cart-shopping"></i> ADD CART</a>
+                            <a href="" class="btn btn-outline-light"><i class="fa-solid fa-circle-info"></i> DETAIL</a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="">
+        <div class="f-col">
+            <div class="f-col1">
+                <div class="f-itemcol1">
+                    <div class="f-title"><a href="">FIND A STORE</a></div>
+                    <div class="f-title"><a href="">BECOME A MEMBER</a></div>
+                    <div class="f-title"><a href="">Send Us Feedback</a></div>
+                </div>
+                <div class="f-itemcol1">
+                    <div class="f-title"><a href="">GET HELP</a></div>
+                    <div class="f-cont"><a href="">Order Status</a></div>
+                    <div class="f-cont"><a href="">Returns</a></div>
+                    <div class="f-cont"><a href="">Payment Options</a></div>
+                    <div class="f-cont"><a href="">Contact Us</a></div>
+                </div>
+                <div class="f-itemcol1">
+                    <div class="f-title"><a href="">ABOUT NIKE</a> </div>
+                    <div class="f-cont"><a href="">News</a> </div>
+                    <div class="f-cont"><a href="">Careers</a></div>
+                    <div class="f-cont"><a href="">Investors</a></div>
+                    <div class="f-cont"><a href="">Sustainability</a></div>
+                </div>
+            </div>
+            <div class="f-col2">
+                <a class="f-twt"><i class="fa-brands fa-twitter"></i></a>
+                <a class="f-fb"><i class="fa-brands fa-facebook"></i></a>
+                <a class="f-ytb"><i class="fa-brands fa-youtube"></i></a>
+                <a class="f-ig"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
